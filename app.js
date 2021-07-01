@@ -9,7 +9,7 @@ var Question=require("./modules/questions");
 var Answer=require("./modules/answer");
 var Comment=require("./modules/comment");
 
-mongoose.connect("mongodb+srv://SachinKumarGupta:testpasss@cluster0.hm3no.mongodb.net/test", { useNewUrlParser: true });
+mongoose.connect("", { useNewUrlParser: true });
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname+"/public"));
 
